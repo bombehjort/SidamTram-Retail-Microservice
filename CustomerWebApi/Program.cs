@@ -10,9 +10,9 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 /* Database Context Dependency Injection */
-var dbHost = "localhost";
-var dbName = "dms_customer";
-var dbPassword = "admin";
+var dbHost = Environment.GetEnvironmentVariable("DB_HOST");
+var dbName = Environment.GetEnvironmentVariable("DB_NAME");
+var dbPassword = Environment.GetEnvironmentVariable("DB_SA_PASSWORD");
 var connectionstring = $"Data Source = {dbHost}, Initial Catalog = {dbName}; User ID=sa; Password = {dbPassword}";
 builder.Services.AddDbContext<CustomerDbContext>(opt => opt.UseSqlServer(connectionstring));                                       
 

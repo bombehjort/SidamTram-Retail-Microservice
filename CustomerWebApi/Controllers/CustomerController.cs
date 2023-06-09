@@ -22,7 +22,7 @@ namespace CustomerWebApi.Controllers
         public async Task<ActionResult<Customer>> getById(int customerId)
         {
             var customer = await _customerDbContext.Customers.FindAsync(customerId);
-            return (customer);
+            return customer;
         }
         [HttpPost]
         public async Task<ActionResult> Create(Customer customer)
