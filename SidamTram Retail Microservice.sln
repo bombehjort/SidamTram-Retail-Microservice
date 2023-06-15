@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SidamTramWebUi", "..\SidamT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductApi", "..\ProductApi\ProductApi.csproj", "{20E98D61-5872-4F2E-AD3B-4F7E072EBFF0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderApi", "..\OrderApi\OrderApi.csproj", "{46ADFE4E-48AF-4B72-BD3C-4C917E59E2AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{20E98D61-5872-4F2E-AD3B-4F7E072EBFF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20E98D61-5872-4F2E-AD3B-4F7E072EBFF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20E98D61-5872-4F2E-AD3B-4F7E072EBFF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46ADFE4E-48AF-4B72-BD3C-4C917E59E2AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46ADFE4E-48AF-4B72-BD3C-4C917E59E2AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46ADFE4E-48AF-4B72-BD3C-4C917E59E2AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46ADFE4E-48AF-4B72-BD3C-4C917E59E2AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +51,7 @@ Global
 		{27929264-5791-4410-88F9-90600036CDE6} = {3053644C-13FC-46F0-92EB-594C4A2D4A6E}
 		{5E0A8965-46D1-432F-B64E-7A9409EDE264} = {B3A44C5B-7500-49BB-A7E9-8685EFA63598}
 		{20E98D61-5872-4F2E-AD3B-4F7E072EBFF0} = {3053644C-13FC-46F0-92EB-594C4A2D4A6E}
+		{46ADFE4E-48AF-4B72-BD3C-4C917E59E2AF} = {3053644C-13FC-46F0-92EB-594C4A2D4A6E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2D578C87-3B70-4122-B9E8-98D8213BBA64}
